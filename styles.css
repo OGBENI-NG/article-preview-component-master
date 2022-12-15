@@ -160,8 +160,8 @@ body {
 @media (min-width: 769px) {
     .container {
         flex-direction: row;
-        width: 100%;
-        max-width: 600px;
+        width: 95%;
+        max-width: 850px;
         height: 23.88em;
     }
 
@@ -178,11 +178,11 @@ body {
         position: fixed;
         position: absolute;
         width: min-content;
-        justify-content: center;
+        align-self: center;
         height: 40px;
         right: 0;
-        left: 74%;
-        bottom: 27%;
+        left: 81.58%;
+        bottom: 32.9%;
         border-radius: 10px;
         
     }
@@ -196,6 +196,7 @@ body {
         top: 100%;
         right: 45%;
     }
+    
 
     .close {
        position: fixed;
